@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@layer base {
+  body {
+    /* Set dark background and light text globally */
+    @apply bg-black text-gray-200;
+  }
+}

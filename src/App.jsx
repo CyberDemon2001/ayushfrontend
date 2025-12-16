@@ -7,6 +7,7 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import { caseStudies, services, skills, testimonials } from "./data/data";
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
-      <CaseStudies />
-      <Skills />
-      <Testimonials />
+      <Services services={services}/>
+      <CaseStudies caseStudies={caseStudies} />
+      <Skills skills={skills}/>
+      <Testimonials testimonials={testimonials}/>
       <Contact />
       <Footer />
     </>
