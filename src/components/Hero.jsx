@@ -3,12 +3,6 @@ const Hero = () => {
     // Full viewport height, deep black background, centered content
     <section className="min-h-screen flex items-center justify-center bg-gray-950 text-center px-4 md:px-8">
       <div className="max-w-6xl mx-auto py-24">
-        {/*
-          Modern Title:
-          - Ultra-massive size (up to 12xl on large screens)
-          - Use a tighter tracking and leading for impact
-          - Apply a subtle, modern text gradient for premium feel
-        */}
         <h1 className="text-8xl sm:text-9xl lg:text-10xl xl:text-12xl font-black uppercase tracking-tighter leading-none mb-8 text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
           DIGITAL
           <br />

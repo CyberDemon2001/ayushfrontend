@@ -4,5 +4,7 @@
   body {
     /* Set dark background and light text globally */
     @apply bg-black text-gray-200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
   }
 }
